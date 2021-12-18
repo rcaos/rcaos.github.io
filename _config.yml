@@ -1,1 +1,64 @@
-theme: jekyll-theme-cayman
+
+title: Jeans Ruiz blog
+description: Personal site of Jeans Ruiz
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+markdown: kramdown
+
+atom_feed:
+  hide: true
+
+author:
+  name     : "Jeans Ruiz"
+  avatar   : "/assets/jeans-ruiz-avatar.jpg"
+  bio      : "I'm a software engineer. Build things"
+  location : "Lima, Peru 🇵🇪"
+  twitter  : rcaos
+  linkedin : "jeans-ruiz"
+  github : "rcaos"
+
+include:
+  - _pages
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+  
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache  
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
