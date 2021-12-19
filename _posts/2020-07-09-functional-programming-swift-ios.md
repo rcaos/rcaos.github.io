@@ -64,9 +64,12 @@ It is a special function that meets at least one of the following requirements:
 This behavior offers a high level of abstraction since they allow abstracting not only values but actions.
 Swift offers Higher Order functions, for instance: map, filter, reduce.
 
-// TODO, insert image here
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/001.png" width="250">
+
 
 ## Pure Function
+
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/002.png" width="200">
 
 It is a function that must be fulfilled:
 
@@ -163,6 +166,8 @@ By keeping the side effects separate from the rest of the program logic, the sof
 
 ## So What is Functional programming?🤔
 
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/003.png" width="300">
+
 It is the process of building software:
 
 - Using pure functions
@@ -174,6 +179,8 @@ The state of the application flows through pure functions, the pillar of functio
 As a result the code tends to be more concise, more predictable, therefore easier to test.
 
 ## From imperative to Functional
+
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/004.png" width="250">
 
 We must remember that the change from imperative to functional is not an all or nothing game, a more reserved approach would be to start small, 
 start writing Pure Functions and use Higher Order Functions whenever it makes sense. 
