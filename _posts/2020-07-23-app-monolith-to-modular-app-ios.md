@@ -79,10 +79,30 @@ In case you need to migrate to CoreData, I replace this module with one "CoreDat
 
 ### Bundle
 When you work with a single project, it is likely that for references to a Storyboard, nib or image you will do it this way:
-// TODO, insert hist
+
+```swift
+  let nibName = UINib(nibName: "AiringTodayCollectionViewCell", bundle: nil)
+  let someImage = UIImage(named: "calendar")
+  static func instantiateViewController(_ bundle: Bundle? = nil)
+```
+
 
 When working with modules to reference the Bundle of the module it belongs to
-// TODO, insert hist
+
+```swift
+  let nib = UINib(nibName: identifier, bundle: Bundle(for: T.self))
+
+  internal class SharedModule { 
+    static let bundle = Bundle(for: SharedModule.self) 
+  }
+
+  public extension UIImage { 
+    convenience init?(name: String) { 
+      self.init(named: name, in: SharedModule.bundle, compatibleWith: .none) 
+    } 
+  }
+```
+
 
 ### Circular Dependencies 🚫
 ``
@@ -114,11 +134,12 @@ various parts of the application independently.
 
 Even if your app is not that big yet, it can grow very fast in the near future, so you can take advantage of its benefits now.
 
-You can review a final modularized project here: https://github.com/rcaos/TVToday
+You can review a final modularized project here: 
+[`https://github.com/rcaos/TVToday`](https://github.com/rcaos/TVToday)
 
 ## References:
-- https://engineering.depop.com/scaling-up-an-ios-app-with-modularisation-8cd280d6b2b8
-- https://academy.realm.io/posts/modular-ios-apps/
-- https://medium.com/kinandcartacreated/modular-ios-strangling-the-monolith-4a6843a28992
-- https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9
-- https://blog.gojekengineering.com/1-app-18-products-a-journey-from-monolith-to-a-microapps-codebase-8ea30d070148
+- [`https://engineering.depop.com/scaling-up-an-ios-app-with-modularisation-8cd280d6b2b8`](https://engineering.depop.com/scaling-up-an-ios-app-with-modularisation-8cd280d6b2b8)
+- [`https://academy.realm.io/posts/modular-ios-apps/`](https://academy.realm.io/posts/modular-ios-apps/)
+- [`https://medium.com/kinandcartacreated/modular-ios-strangling-the-monolith-4a6843a28992`](https://medium.com/kinandcartacreated/modular-ios-strangling-the-monolith-4a6843a28992)
+- [`https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9`](https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9)
+- [`https://blog.gojekengineering.com/1-app-18-products-a-journey-from-monolith-to-a-microapps-codebase-8ea30d070148`](https://blog.gojekengineering.com/1-app-18-products-a-journey-from-monolith-to-a-microapps-codebase-8ea30d070148)
