@@ -17,7 +17,8 @@ I will leave the Reactive part for another entry. One step at a time.
 
 Swift is a primarily imperative language, but modern functional programming concepts have been introduced into its design, let's explore some concepts:
 <br><br>
-1. First-Class Functions
+<ol>
+  <li>First-Class Functions</li>
 
 In Swift we can use functions like Data types, this implies that we can:
 
@@ -54,7 +55,8 @@ In Swift we can use functions like Data types, this implies that we can:
   }
 ```
 
-2. Higher-Order Functions
+                    
+<li>Higher-Order Functions</li>
 
 It is a special function that meets at least one of the following requirements:
 
@@ -66,7 +68,8 @@ Swift offers Higher Order functions, for instance: map, filter, reduce.
 
 // TODO, insert image here
 <br><br>
-3. Pure Function
+<li>Pure Function</li>
+</ol>
 
 It is a function that must be fulfilled:
 
