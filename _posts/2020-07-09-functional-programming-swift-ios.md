@@ -64,12 +64,15 @@ It is a special function that meets at least one of the following requirements:
 This behavior offers a high level of abstraction since they allow abstracting not only values but actions.
 Swift offers Higher Order functions, for instance: map, filter, reduce.
 
-<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/001.png" width="250">
-
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/001.png">
+{: refdef}
 
 ## Pure Function
 
-<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/002.png" width="200">
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/002.png">
+{: refdef}
 
 It is a function that must be fulfilled:
 
@@ -166,7 +169,9 @@ By keeping the side effects separate from the rest of the program logic, the sof
 
 ## So What is Functional programming?🤔
 
-<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/003.png" width="300">
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/003.png">
+{: refdef}
 
 It is the process of building software:
 
@@ -180,7 +185,9 @@ As a result the code tends to be more concise, more predictable, therefore easie
 
 ## From imperative to Functional
 
+{:refdef: style="text-align: center;"}
 <img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/004.png" width="250">
+{: refdef}
 
 We must remember that the change from imperative to functional is not an all or nothing game, a more reserved approach would be to start small, 
 start writing Pure Functions and use Higher Order Functions whenever it makes sense. 
