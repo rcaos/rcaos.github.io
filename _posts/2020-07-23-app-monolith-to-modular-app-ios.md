@@ -138,8 +138,8 @@ You can review a final modularized project here:
 [`https://github.com/rcaos/TVToday`](https://github.com/rcaos/TVToday)
 
 ## References:
-- [`https://engineering.depop.com/scaling-up-an-ios-app-with-modularisation-8cd280d6b2b8`](https://engineering.depop.com/scaling-up-an-ios-app-with-modularisation-8cd280d6b2b8)
-- [`https://academy.realm.io/posts/modular-ios-apps/`](https://academy.realm.io/posts/modular-ios-apps/)
-- [`https://medium.com/kinandcartacreated/modular-ios-strangling-the-monolith-4a6843a28992`](https://medium.com/kinandcartacreated/modular-ios-strangling-the-monolith-4a6843a28992)
-- [`https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9`](https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9)
-- [`https://blog.gojekengineering.com/1-app-18-products-a-journey-from-monolith-to-a-microapps-codebase-8ea30d070148`](https://blog.gojekengineering.com/1-app-18-products-a-journey-from-monolith-to-a-microapps-codebase-8ea30d070148)
+- [https://engineering.depop.com/scaling-up-an-ios-app-with-modularisation-8cd280d6b2b8](https://engineering.depop.com/scaling-up-an-ios-app-with-modularisation-8cd280d6b2b8)
+- [https://academy.realm.io/posts/modular-ios-apps/](https://academy.realm.io/posts/modular-ios-apps/)
+- [https://medium.com/kinandcartacreated/modular-ios-strangling-the-monolith-4a6843a28992](https://medium.com/kinandcartacreated/modular-ios-strangling-the-monolith-4a6843a28992)
+- [https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9](https://tech.olx.com/modular-architecture-in-ios-c1a1e3bff8e9)
+- [https://blog.gojekengineering.com/1-app-18-products-a-journey-from-monolith-to-a-microapps-codebase-8ea30d070148](https://blog.gojekengineering.com/1-app-18-products-a-journey-from-monolith-to-a-microapps-codebase-8ea30d070148)
