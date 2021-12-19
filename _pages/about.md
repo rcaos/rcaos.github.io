@@ -6,9 +6,9 @@ author_profile: true
 
 Hi there! 👋
 
-I'm Jeans, a software engineer located in Lima Perú 🇵🇪. 
+My name is `Jeans`, I am a software engineer located in [Lima Perú 🇵🇪](https://www.google.com/maps/search/Peru)
 
-I work in tech for more than five years, but since 2019 I focused on development of apps for mobile, specifically for iOS.
+I work in tech for more than 5 years, but since 2019 I focused on development of apps for mobile, specifically for iOS.
 
 I'm concern about software quality, but at the same time I'm trying of optimize the development speed to increase the value of a business.
 
