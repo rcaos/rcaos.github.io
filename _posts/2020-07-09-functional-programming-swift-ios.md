@@ -194,3 +194,10 @@ In the real world the applications we build widely mix Functional Programming, O
 personally I write functional code where it makes sense, it shouldn't force things either.
 
 I hope you are encouraged to use these concepts, that will help you to create code easies to read, reuse and maintain.
+
+#### References:
+
+- [What is a Pure Function](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976/)
+- [Elements of Functional Programming](https://www.youtube.com/watch?v=OgU8d_E1K14)
+- [Composing Software The Book](https://medium.com/javascript-scene/composing-software-the-book-f31c77fc3ddc)
+- [What is Copy on Write](https://www.hackingwithswift.com/example-code/language/what-is-copy-on-write)
