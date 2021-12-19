@@ -1,9 +1,9 @@
 ---
-title: "About the Coordinator patterns on iOS"
+title: "About the Coordinator pattern on iOS"
 categories: "Navigation"
-excerpt: Thoughts about using the Coordinator patterns on iOS
+excerpt: Thoughts about using the Coordinator pattern on iOS
 ---
-## About the Coordinator patterns on iOS
+## About the Coordinator pattern on iOS
 
 When I learned to develop applications for iOS one of the topics that are included is 
 how to handle navigation within the application or how to go from one screen to another.
