@@ -15,9 +15,9 @@ author:
   avatar   : "/assets/jeans-ruiz-avatar.png"
   bio      : "I'm a software engineer. Build things"
   location : "Lima, Peru 🇵🇪"
+  github : "rcaos"
   twitter  : rcaos
   linkedin : "jeans-ruiz"
-  github : "rcaos"
 
 include:
   - _pages
