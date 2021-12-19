@@ -148,10 +148,11 @@ While it has more features like testing standalone UIViews or testing Layers, bu
   }
 ```
 
-
-
 Result:
-// TODO, insert Image here 
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-08-12-snapshot-testing-ios-swift/002.png">
+{: refdef}
 
 What if an error happens, and if the view is loading a next page? And if the service does not return any element?
 ```swift
@@ -182,7 +183,9 @@ What if an error happens, and if the view is loading a next page? And if the ser
   }
 ```
 
-// TODO, inser Image here
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-08-12-snapshot-testing-ios-swift/003.png">
+{: refdef}
 
 The first time I generate the snapshots, I must execute the tests with the variable recordMode = true:
 
@@ -193,8 +196,12 @@ The first time I generate the snapshots, I must execute the tests with the varia
   }
 ```
 
-To verify the snapshots I run again with the recordMode variable set to false or commented:
-// TODO, insert Image
+To verify the snapshots I run again with the recordMode variable set to false or commented, and all our tests will pass:
+
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-08-12-snapshot-testing-ios-swift/004.png">
+{: refdef}
+
 
 ### What if the UI is modified?
 What happens for example that the rendering of the table is modified and some field is omitted or modified. 
@@ -207,8 +214,15 @@ It generates the Original Image that serves as a reference, the new snapshot cre
 
 Using this framework, you can instantly see exactly what is going on just by looking at the capture.
 
-// TODO, insert 3 images here
-
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-08-12-snapshot-testing-ios-swift/005.png">
+{: refdef}
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-08-12-snapshot-testing-ios-swift/006.png">
+{: refdef}
+{:refdef: style="text-align: center;"}
+<img src="{{ site.url }}/assets/posts/2020-08-12-snapshot-testing-ios-swift/007.png">
+{: refdef}
 
 
 ## Summary
