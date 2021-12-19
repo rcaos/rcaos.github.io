@@ -186,7 +186,7 @@ As a result the code tends to be more concise, more predictable, therefore easie
 ## From imperative to Functional
 
 {:refdef: style="text-align: center;"}
-<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/004.png" width="250">
+<img src="{{ site.url }}/assets/posts/2020-07-09-functional-programming-swift-ios/004.png">
 {: refdef}
 
 We must remember that the change from imperative to functional is not an all or nothing game, a more reserved approach would be to start small, 
