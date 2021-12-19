@@ -1,6 +1,6 @@
 
 title: Jeans Ruiz blog
-description: Jeans Ruiz is a iOS developer, software engineer interested in buildng quality software
+description: Jeans Ruiz is an iOS developer, software engineer interested in building quality software
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -13,9 +13,9 @@ atom_feed:
 author:
   name     : "Jeans Ruiz"
   avatar   : "/assets/jeans-ruiz-avatar.png"
-  bio      : "I'm a software engineer. Build things"
+  bio      : "I'm a software engineer. Skillful in Swift and iOS"
   location : "Lima, Peru 🇵🇪"
-  github : "rcaos"
+  github   : "rcaos"
   twitter  : rcaos
   linkedin : "jeans-ruiz"
 
