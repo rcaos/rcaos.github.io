@@ -1,7 +1,7 @@
 ---
-title: "Test your ViewControllers"
+title: "Snapshot Testing on iOS"
 categories: "Testing"
-excerpt: Learn how to test use Snapshot tests for your ViewControllers
+excerpt: Learn how to test use Snapshot tests for your Views and ViewControllers
 ---
 
 We write a lot of UI code, both ViewControllers and UIViews make up a large part of our codebase.
