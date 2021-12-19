@@ -16,8 +16,8 @@ In this post, I will cover the functional part and how you can use it in your da
 I will leave the Reactive part for another entry. One step at a time. 
 
 Swift is a primarily imperative language, but modern functional programming concepts have been introduced into its design, let's explore some concepts:
-<br><br>
-1. First-Class Functions
+
+## First-Class Functions
 
 In Swift we can use functions like Data types, this implies that we can:
 
@@ -52,9 +52,9 @@ In Swift we can use functions like Data types, this implies that we can:
   func chooseOperation(value: Int) -> operation {
     return value < 10 ? incrementer : multiplier
   }
-```
-<br>
-2. Higher-Order Functions
+``` 
+
+## Higher-Order Functions
 
 It is a special function that meets at least one of the following requirements:
 
@@ -65,8 +65,8 @@ This behavior offers a high level of abstraction since they allow abstracting no
 Swift offers Higher Order functions, for instance: map, filter, reduce.
 
 // TODO, insert image here
-<br><br>
-3. Pure Function
+
+## Pure Function
 
 It is a function that must be fulfilled:
 
@@ -120,8 +120,7 @@ Pure function ✅
 - Depend on external factors
 - I/O
 
-<br>
-4. Shared State
+## Shared State
 
 It is any variable, or object, that exists in a shared scope or as a property of an object that is passed between scopes.
 
@@ -130,8 +129,7 @@ Functional programming avoids shared state, instead relying on immutable data st
 The big problem with shared state is that to understand how a function works, you must know the complete history of each shared variable that the function uses or affects.
 You need to know in advance how and how many times a function has been called.
 
-<br>
-5. Immutability
+## Immutability
 
 - An object is immutable when it cannot be modified after it is created
 - Swift provides immutable data structures by definition.
@@ -147,8 +145,7 @@ For example, copy an array of 1000 elements each time it is assigned to another 
 But this is not the case, since the Swift compiler optimizes these statements and only performs the copy when there is a modification of the variables that share the array.
 This technique is called Copy on Write
 
-<br>
-6. Side Effects
+## Side Effects
 
 It is any change of state of the application that a function performs other than its return value:
 
@@ -164,7 +161,6 @@ we want to make payments, persist data on the device, use the network, send an e
 The thing to keep in mind is that it should be isolated from the rest of the software. 
 By keeping the side effects separate from the rest of the program logic, the software will be much easier to understand, refactor, debug, test, and maintain.
 
-<br>
 ## So What is Functional programming?🤔
 
 It is the process of building software:
@@ -177,8 +173,7 @@ It is the process of building software:
 The state of the application flows through pure functions, the pillar of functional programming is to transform a data flow and as a result another data flow returns.
 As a result the code tends to be more concise, more predictable, therefore easier to test.
 
-<br>
-### From imperative to Functional
+## From imperative to Functional
 
 We must remember that the change from imperative to functional is not an all or nothing game, a more reserved approach would be to start small, 
 start writing Pure Functions and use Higher Order Functions whenever it makes sense. 
@@ -195,7 +190,7 @@ personally I write functional code where it makes sense, it shouldn't force thin
 
 I hope you are encouraged to use these concepts, that will help you to create code easies to read, reuse and maintain.
 
-#### References:
+## References:
 
 - [What is a Pure Function](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976/)
 - [Elements of Functional Programming](https://www.youtube.com/watch?v=OgU8d_E1K14)
