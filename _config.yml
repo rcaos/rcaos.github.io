@@ -9,6 +9,8 @@ markdown: kramdown
 
 atom_feed:
   hide: true
+  
+google_analytics: UA-171498446-1
 
 author:
   name     : "Jeans Ruiz"
