@@ -1,9 +1,9 @@
 ---
-title: "Moving ViewModels from RxSwift to Combine"
+title: "Moving from RxSwift to Combine"
 categories: rxswift, combine
 excerpt: Moving ViewModels from RxSwift to Combine.
 ---
-## Moving ViewModels from RxSwift to Combine
+## Moving from RxSwift to Combine
 
 Lastly, I have been working on migrating a project from RxSwift to Combine, in this entry will share the learnings from that process, some things result very well and others don’t.
 
