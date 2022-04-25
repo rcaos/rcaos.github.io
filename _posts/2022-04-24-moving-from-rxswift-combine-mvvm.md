@@ -1,6 +1,6 @@
 ---
 title: "Moving from RxSwift to Combine"
-categories: rxswift, combine
+categories: rxswift combine
 excerpt: Moving ViewModels from RxSwift to Combine.
 ---
 ## Moving from RxSwift to Combine
