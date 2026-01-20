@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are required)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom bio badge styling */
+.bio-badge {
+  background-color: #ff5722;  /* Coral - works great on dark backgrounds */
+  color: #ffffff;             /* White text */
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.bio-badge i {
+  margin-right: 6px;  /* Space between icon and text */
+}
+
+.bio-badge:hover {
+  background-color: #ff7043;  /* Lighter coral */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  text-decoration: none;
+}
+
+.bio-badge:visited {
+  color: #ffffff;             /* Keep text white after visiting */
+}
