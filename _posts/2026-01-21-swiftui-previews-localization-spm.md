@@ -95,6 +95,7 @@ The complete implementation is available at [github.com/rcaos/SwiftUI-Localizati
 
 1. **Move localization to SPM module** - Configure your `Package.swift` to include `.xcstrings` resources
 2. **Declare supported languages in Info.plist** - Add `CFBundleLocalizations` array with your language codes:
+
 ```xml
 <key>CFBundleLocalizations</key>
 <array>
@@ -103,6 +104,7 @@ The complete implementation is available at [github.com/rcaos/SwiftUI-Localizati
   <string>ja</string>
 </array>
 ```
+
 3. **Use `LocalizableString` wrapper** - Create type-safe static properties for your strings
 4. **Call `setPreviewLanguage()` in previews** - Enable multi-language **Xcode previews**
 
