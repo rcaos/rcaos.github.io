@@ -94,8 +94,17 @@ The complete implementation is available at [github.com/rcaos/SwiftUI-Localizati
 ## Quick Start
 
 1. **Move localization to SPM module** - Configure your `Package.swift` to include `.xcstrings` resources
-2. **Use `LocalizableString` wrapper** - Create type-safe static properties for your strings
-3. **Call `setPreviewLanguage()` in previews** - Enable multi-language **Xcode previews**
+2. **Declare supported languages in Info.plist** - Add `CFBundleLocalizations` array with your language codes:
+```xml
+<key>CFBundleLocalizations</key>
+<array>
+  <string>en</string>
+  <string>es</string>
+  <string>ja</string>
+</array>
+```
+3. **Use `LocalizableString` wrapper** - Create type-safe static properties for your strings
+4. **Call `setPreviewLanguage()` in previews** - Enable multi-language **Xcode previews**
 
 That's it. No build phases, no code generation, just clean Swift for **iOS localization** in modular projects.
 
